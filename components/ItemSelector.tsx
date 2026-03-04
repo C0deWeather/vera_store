@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
-import { Item } from '../database/db';
+import { Item } from '../app/database/db';
 
 type Props = {
   items: Item[];

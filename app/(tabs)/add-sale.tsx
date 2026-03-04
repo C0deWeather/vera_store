@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Alert, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import ItemSelector from '../../components/ItemSelector';
-import { addSale, getItems, Item } from '../../database/db';
+import { addSale, getItems, Item } from '../database/db';
 
 export default function AddSaleScreen() {
   const [items, setItems] = useState<Item[]>([]);

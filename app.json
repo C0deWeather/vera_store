@@ -17,7 +17,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "scheme": "verastore"
+    }
   }
 }

@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Alert, FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
-import { addItem, deleteItem, getItems, Item } from '../../database/db';
+import { addItem, deleteItem, getItems, Item } from '../database/db';
 
 export default function ManageItemsScreen() {
   const [name, setName] = useState('');

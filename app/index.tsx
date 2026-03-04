@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
 import { router } from 'expo-router';
-import { initDB } from '../database/db';
+import { initDB } from './database/db';
 
 export default function LoadingScreen() {
   const [error, setError] = useState<string | null>(null);

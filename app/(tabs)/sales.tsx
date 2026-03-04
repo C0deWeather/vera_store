@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Alert, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
-import { deleteSale, getSalesByDate, getTodayDateString, Sale } from '../../database/db';
+import { deleteSale, getSalesByDate, getTodayDateString, Sale } from '../database/db';
 
 export default function SalesScreen() {
   const [sales, setSales] = useState<Sale[]>([]);
