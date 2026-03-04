@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Mom's Sales App",
+    "slug": "vera-store",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "scheme": "verastore"
+  }
+}
